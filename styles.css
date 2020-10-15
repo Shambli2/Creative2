@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  #lyricResults {
+    margin: 40px;
+  }
+  form {
+    font-size: 4vw;
+  }
+}
+@media only screen and (min-width: 961px) {
+  .body-container {
+    display: flex;
+  }
+  #lyricResults {
+    margin:40px 60px;
+  }
+  form {
+    font-size: 2vw;
+  }
+}
+
+/*header*/
+.header-container {
+  background: linear-gradient(80deg, #CF105C 20%, #10BCCF 80%);
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  align-items: center;
+  color: black;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 10vw;
+}
+/*form*/
+form {
+  margin-left: 40px;
+  margin-top: 40px;
+  color: #10BCCF;
+
+}
+
+/*lyrics*/
+#lyricResults {
+  color: #8210CF;
+}
+
+/*footer*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(80deg, #CF105C 20%, #10BCCF 80%);
+  color: black;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px;
+}
